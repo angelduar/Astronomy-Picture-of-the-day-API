@@ -1,0 +1,94 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("hubble.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+h5{
+    color: white;
+    font-size: 22px;
+}
+.aParent div {
+    float: left;
+    clear: none; 
+}
+.container1{
+    width: 800px;
+    height:800px;
+    border-color:transparent;
+    padding: 40px;
+    text-align:center;
+    margin:auto;
+    margin-left: 5%;
+    margin-top:5%;
+    margin-right: 2%;
+    margin-bottom:5%;
+    float: left;
+    position:relative;
+}
+.lightbox{
+    display:none;
+    width:790px;
+    height:650px;
+    border:5px solid rgb(128,128,128);
+ }
+ .lightbox img{
+     display:block;
+     width:800px;
+     position:relative;
+     z-index:-1;
+ }
+.container2{
+    width: 300px;
+    height:800px;
+    padding: 40px;
+    text-align:center;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:5%;
+    margin-left: 2%;
+    color:white;
+    float: left;
+    position:relative;
+    font-size:19px;
+}
+.container2:hover{
+    width: 300px;
+    height:900px;
+    padding: 40px;
+    background: rgb(128,128,128);
+    text-align:center;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:5%;
+    margin-left: 2%;
+    color:white;
+    float: left;
+    position:relative;
+    font-size:19px;
+}
+.wrapper {
+    width: 800px;
+    height: auto;
+    padding: 50px;
+    text-align:center;
+    color:white;
+    margin:auto;
+    float:center;
+}
+.inline {
+    display:inline-block;
+    text-align:center;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+ }
+
